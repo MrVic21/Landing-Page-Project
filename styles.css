@@ -1,2 +1,33 @@
 /* styles page */
 
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
