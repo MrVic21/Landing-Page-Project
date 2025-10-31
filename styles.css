@@ -31,3 +31,10 @@ body {
     justify-content: space-between;
     gap: 40px;
 }
+
+.content-one {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+}
