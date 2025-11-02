@@ -17,6 +17,9 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
 }
 
 .header {
@@ -37,4 +40,16 @@ body {
     justify-content: center;
     justify-content: space-around;
     margin: 20px;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-layout {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 5px;
 }
