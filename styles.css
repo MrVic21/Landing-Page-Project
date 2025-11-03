@@ -42,6 +42,12 @@ body {
     margin: 20px;
 }
 
+
+.backround-one {
+    background-color: rgb(96, 144, 216);
+}
+
+
 .content-two {
     display: flex;
     flex-direction: column;
@@ -50,6 +56,20 @@ body {
 .box-layout {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    margin: 5px;
+    margin: 50px;
+    gap: 50px;
 }
+
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    justify-content: flex start;
+}
+
